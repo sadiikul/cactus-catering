@@ -1,5 +1,5 @@
 header {
-    background-color: #32373a;
+    background-color: #2a4b5e;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -10,7 +10,7 @@ header {
   .logo img {
     height: 40px;
   }
-  
+
   nav ul {
     list-style: none;
     display: flex;
@@ -167,7 +167,8 @@ footer {
 
 /* form */
 .form{
-    background-color: #6d777e;
+  padding-bottom: 70px;
+    background-color: #2a4b5e;
 }
 form {
     
@@ -251,3 +252,34 @@ form {
     display: flex;
     justify-content: space-evenly;
   }
+
+/* footer */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-4 {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+}
+
+.col-md-4:last-child {
+  margin-right: 0;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer h3 {
+  margin-top: 0;
+}
