@@ -55,6 +55,9 @@ header {
     margin: 0;
     font-family: Arial, sans-serif;
   }
+  .body-custom{
+    background-color: #adc6d3;
+  }
   
   .gallery {
     display: flex;
