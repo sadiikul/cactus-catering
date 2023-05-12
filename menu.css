@@ -1,3 +1,13 @@
+#scroll-to-top-btn {
+  font-size: large;
+  padding: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: red;
+  display: none;
+  cursor: pointer;
+}
 header {
     background-color: #2a4b5e;
     height: 50px;
